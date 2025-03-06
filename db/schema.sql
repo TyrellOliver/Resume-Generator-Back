@@ -1,5 +1,7 @@
 DROP DATABASE IF EXISTS resume_generator_app;
 
+CREATE DATABASE resume_generator_app;
+
 \c resume_generator_app;
 
 CREATE TABLE users (
